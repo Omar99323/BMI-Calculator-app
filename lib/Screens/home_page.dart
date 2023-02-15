@@ -49,6 +49,7 @@ class _HomePageState extends State<HomePage> {
                   EdgeInsets.all(MediaQuery.of(context).size.height * 0.02),
               child: Column(
                 children: [
+                  //gender bloc
                   Expanded(
                     flex: 3,
                     child: genderRow(context),
@@ -56,6 +57,7 @@ class _HomePageState extends State<HomePage> {
                   SizedBox(
                     height: MediaQuery.of(context).size.height * 0.02,
                   ),
+                  //height block
                   Expanded(
                     flex: 4,
                     child: sliderBlock(context, getColor),
@@ -63,6 +65,7 @@ class _HomePageState extends State<HomePage> {
                   SizedBox(
                     height: MediaQuery.of(context).size.height * 0.02,
                   ),
+                  // weight and age blocks
                   Expanded(
                     flex: 4,
                     child: Row(
