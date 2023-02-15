@@ -1,4 +1,4 @@
-# BMI_Calculator
+# BMI Calculator
 
 A Responsive Flutter project.
 
