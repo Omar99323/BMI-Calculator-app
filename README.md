@@ -1,4 +1,3 @@
 # BMI Calculator
 
-A Responsive Flutter project.
-
+Responsive Flutter project.
